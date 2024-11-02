@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Evento Especial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 50px;
+            background-color: #333;
+            color: white;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .section img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .pix-key {
+            font-weight: bold;
+            background-color: #d1e7dd;
+            padding: 10px;
+            border-radius: 5px;
+            color: #155724;
+            display: inline-block;
+        }
+        .form-group {
+            margin: 15px 0;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Bem-vindo ao nosso Evento Especial</h1>
+        <p>Estamos felizes em compartilhar esse momento com você!</p>
+    </header>
+
+    <!-- Nossa História -->
+    <section class="section">
+        <h2>Nossa História</h2>
+        <p>Aqui você pode contar a história ou o motivo do evento. Fale sobre como o casal se conheceu ou sobre a importância dessa celebração.</p>
+        <img src="foto-historia.jpg" alt="Nossa história" />
+    </section>
+
+    <!-- Local do Evento -->
+    <section class="section">
+        <h2>Localização</h2>
+        <p>Data: 20 de Dezembro de 2024</p>
+        <p>Local: Salão de Festas XYZ</p>
+        <!-- Exemplo de mapa embutido -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.206141236524!2d-122.41941608468102!3d37.77492927975907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085818f029f53d5%3A0x823bb2f5a9dbddad!2sSal%C3%A3o%20de%20Festas%20XYZ!5e0!3m2!1spt-BR!2sbr!4v1698339068214!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <!-- Lista de Presentes -->
+    <section class="section">
+        <h2>Lista de Presentes</h2>
+        <p>Se desejar contribuir, estamos aceitando presentes em forma de doação. Utilize nossa chave PIX abaixo:</p>
+        <div class="pix-key">000.000.000-00</div> <!-- Substitua pela chave PIX real -->
+    </section>
+
+    <!-- Confirmação de Presença (RSVP) -->
+    <section class="section">
+        <h2>Confirme sua Presença</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="4" placeholder="Deixe uma mensagem"></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+</div>
+
+<!-- Rodapé -->
+<footer>
+    <p>Obrigado por fazer parte do nosso dia especial!</p>
+</footer>
+
+</body>
+</html>
